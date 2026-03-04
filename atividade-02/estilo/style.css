@@ -183,3 +183,19 @@ footer a:hover {
     background-image: linear-gradient(to right, var(--cor1), transparent);
     text-indent: 8px;
 }
+
+.question {
+    font-family: var(--fonte-padrao);
+}
+
+label {
+    display: block;     
+    margin-bottom: 10px; 
+    margin-left: 30px;
+    cursor: pointer;     
+}
+
+button {
+    padding: 5px;
+    margin: 10px 0px 20px 30px;
+}
