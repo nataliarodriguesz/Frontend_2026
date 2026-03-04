@@ -28,23 +28,25 @@ Cada pasta contém:
 
 * 📄 `README.md` → explicação da atividade
 * 🧩 Arquivos do projeto (HTML, CSS, JS etc.)
-* ▶️ `index.html` (quando aplicável)
+* ▶️ `main.html` -> página principal
 
 ---
 
 ## 🧭 Menu de Navegação
 
-Este **README funciona como menu principal do repositório**.
+Este **README funciona como menu principal do repositório**.  
+
+> ⚡ **ATENÇÃO:**  
+> O arquivo `index.html` **funciona como um menu de navegação interativo**, direcionando **diretamente para a página principal de cada atividade**.
 
 Clique em uma das atividades abaixo para acessar sua respectiva pasta:
 
 ### 📌 Atividades
 
 * 🔹 [Atividade 01](./atividade-01/)
+* 🔹 [Atividade 02](./atividade-02/)
 
 > Ao clicar, o GitHub abrirá automaticamente a pasta da atividade e exibirá o README correspondente.
-
----
 
 ## 🎯 Objetivo do Repositório
 
