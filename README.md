@@ -1,7 +1,7 @@
 # 🌐 Frontend 2026
 
 🔗 **Repositório:**
-https://github.com/nataliarodriguesz/frontend-2026
+https://github.com/nataliarodriguesz/Frontend_2026
 
 ---
 
