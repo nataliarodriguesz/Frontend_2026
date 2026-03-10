@@ -5,6 +5,10 @@
     <meta name="description" content="Curiosidades e fatos históricos da Ciência da Computação">
     <meta name="author" content="Portal Computação">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
     <title>Arquivo Confuso da Computação</title>
     <link rel="stylesheet" href="estilo/style.css">
 </head>
@@ -34,13 +38,15 @@
         <section id="pioneiros">
             <h2>Pioneiros Esquecidos</h2>
 
-            <article>
-                <h3>Ada Lovelace</h3>
-                <p>Considerada a primeira programadora da história.</p>
-                <details>
-                    <summary>Ver mais</summary>
-                    <p>Ela escreveu um algoritmo para a Máquina Analítica no século XIX.</p>
-                </details>
+            <article class="card bg-primary text-primary-content w-96">
+                <div class="card-body">
+                    <h3 class="card-title">Ada Lovelace</h3>
+                    <p>Considerada a primeira programadora da história.</p>
+                    <details>
+                        <summary>Ver mais</summary>
+                        <p>Ela escreveu um algoritmo para a Máquina Analítica no século XIX.</p>
+                    </details>
+                </div>
             </article>
 
             <article>
