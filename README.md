@@ -21,32 +21,53 @@ As atividades estão organizadas em pastas individuais seguindo um padrão:
 atividade-01/
 atividade-02/
 atividade-03/
-...
+atividade-04/
+atividade-05/
+atividade-06/
+atividade-07/
+atividade-08/
+
+lista-01/
+prova/
 ```
 
 Cada pasta contém:
 
 * 📄 `README.md` → explicação da atividade
 * 🧩 Arquivos do projeto (HTML, CSS, JS etc.)
-* ▶️ `main.html` -> página principal
+* ▶️ `main.html` → página principal
 
 ---
 
 ## 🧭 Menu de Navegação
 
-Este **README funciona como menu principal do repositório**.  
+Este **README funciona como menu principal do repositório**.
 
-> ⚡ **ATENÇÃO:**  
-> O arquivo `index.html` **funciona como um menu de navegação interativo**, direcionando **diretamente para a página principal de cada atividade**.
-
-Clique em uma das atividades abaixo para acessar sua respectiva pasta:
+> ⚡ **ATENÇÃO:**
+> O arquivo `index.html` funciona como um menu de navegação interativo, direcionando diretamente para a página principal de cada atividade.
 
 ### 📌 Atividades
 
-* 🔹 [Atividade 01](./atividade-01/)
-* 🔹 [Atividade 02](./atividade-02/)
+* 🔹 [Atividade 01 - Acervo](./atividade-01/)
+* 🔹 [Atividade 02 - Algoritmos](./atividade-02/)
+* 🔹 [Atividade 03 - CSS](./atividade-03/)
+* 🔹 [Atividade 04 - DaisyUI](./atividade-04/)
+* 🔹 [Atividade 05 - Bootstrap](./atividade-05/)
+* 🔹 [Atividade 06 - Lâmpada](./atividade-06/)
+* 🔹 [Atividade 07 - Bichinho Virtual](./atividade-07/)
+* 🔹 [Atividade 08 - Jogo da Velha](./atividade-08/)
 
-> Ao clicar, o GitHub abrirá automaticamente a pasta da atividade e exibirá o README correspondente.
+### 📝 Exercícios
+
+* 🔹 [Lista 01](./lista-01/)
+
+### 🎓 Avaliações
+
+* 🔹 [Prova](./prova/)
+
+> Ao clicar, o GitHub abrirá automaticamente a pasta correspondente e exibirá o README da atividade.
+
+---
 
 ## 🎯 Objetivo do Repositório
 
@@ -61,6 +82,9 @@ Clique em uma das atividades abaixo para acessar sua respectiva pasta:
 
 * HTML5
 * CSS3
+* JavaScript
+* Bootstrap
+* DaisyUI
 
 ---
 
@@ -71,4 +95,3 @@ Frontend – 2026
 ---
 
 > 📌 Este repositório será atualizado constantemente conforme novas atividades forem propostas em aula.
-
