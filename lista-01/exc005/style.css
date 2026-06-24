@@ -1,0 +1,72 @@
+body{
+    margin:0;
+    height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:#f4f6f9;
+
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#card{
+    width:500px;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:0 0 15px rgba(0,0,0,0.15);
+}
+
+h1{
+    text-align:center;
+    color:#1d4ed8;
+}
+
+input{
+    width:100%;
+
+    padding:10px;
+
+    margin-bottom:10px;
+
+    box-sizing:border-box;
+}
+
+button{
+    padding:10px;
+
+    cursor:pointer;
+}
+
+ul{
+    padding:0;
+
+    margin-top:20px;
+}
+
+li{
+    list-style:none;
+
+    padding:10px 0;
+
+    border-bottom:1px solid #ddd;
+}
+
+.riscado{
+    text-decoration:line-through;
+    color:gray;
+}
+
+.btns{
+    margin-top:10px;
+}
+
+.btns button{
+    margin-right:5px;
+}

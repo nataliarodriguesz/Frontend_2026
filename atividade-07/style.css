@@ -1,0 +1,85 @@
+body{
+    margin:0;
+    height:100vh;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+
+    background-image:url("imagens/background.png");
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+
+    transition:all 0.5s ease;
+}
+
+#b{
+    width:300px;
+}
+
+#btn{
+    width:120px;
+    margin-top:20px;
+    cursor:pointer;
+}
+
+#nome{
+    padding:10px;
+    margin-bottom:20px;
+}
+
+#ferlini{
+    width:90px;
+    margin-top:50px;
+
+    opacity:0.4;
+    cursor:pointer;
+}
+
+#ferlini:hover{
+    opacity:1;
+}
+
+#estrelas{
+    position:fixed;
+    top:0;
+    left:0;
+
+    width:100%;
+    height:100%;
+
+    pointer-events:none;
+
+    opacity:0;
+
+    transition:opacity 1s;
+}
+
+.estrela{
+    position:absolute;
+
+    width:4px;
+    height:4px;
+
+    background:white;
+    border-radius:50%;
+
+    animation:piscar 2s infinite;
+}
+
+@keyframes piscar{
+
+    0%{
+        opacity:0.2;
+    }
+
+    50%{
+        opacity:1;
+    }
+
+    100%{
+        opacity:0.2;
+    }
+}

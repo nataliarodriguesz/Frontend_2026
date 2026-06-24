@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinity Bank</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="card">
+
+        <h1>Infinity Bank</h1>
+
+        <select id="bandeira">
+            <option value="visa">Visa</option>
+            <option value="master">Master</option>
+            <option value="elo">Elo</option>
+        </select>
+
+        <input
+            id="valor"
+            type="number"
+            placeholder="Valor da venda"
+        >
+
+        <input
+            id="parcelas"
+            type="number"
+            placeholder="Quantidade de parcelas"
+        >
+
+        <button id="btn">
+            Calcular
+        </button>
+
+        <div id="res"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bichinho</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body>
+
+    <div id="estrelas"></div>
+
+    <div class="fixed top-5 right-5 z-50">
+        <label class="toggle text-base-content">
+            <input
+                id="toggleTema"
+                type="checkbox"
+                onchange="trocarTema()"
+            />
+            🌞
+            🌙
+        </label>
+    </div>
+
+    <input
+        id="nome"
+        type="text"
+        placeholder="Nome da criatura"
+    >
+
+    <img id="b" src="imagens/b_n.png">
+
+    <img
+        id="btn"
+        src="imagens/btn.png"
+        onclick="alimentar()"
+    >
+
+    <img
+        id="ferlini"
+        src="imagens/btn_ferlini.jpg"
+        onclick="ferlini()"
+    >
+
+    <script src="script.js"></script>
+
+</body>
+</html>
